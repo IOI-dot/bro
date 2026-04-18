@@ -12,7 +12,16 @@ const timelineRoutes = require('./routes/timeline'); // Added from friend's push
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+// --- UPDATED CORS CONFIGURATION ---
+app.use(cors({
+    origin: [
+        "https://brethen-37t1iwluz-ioi-dots-projects.vercel.app", 
+        "http://localhost:5173" // Keeps local development working too!
+    ], 
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    credentials: true
+}));
+
 app.use(express.json());
 
 // --- CONNECT ROUTES ---
