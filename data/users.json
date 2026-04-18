@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "fullName": "John Doe",
+    "email": "testuser1@aucegypt.edu",
+    "password": "$2b$10$B/q2ZpcPXH4J29d9Rrdgb.d5bOdV0O/bKHIVUf99tvghtT5QtT6V6",
+    "role": "student",
+    "createdAt": "2026-04-15T12:31:46.077Z"
+  },
+  {
+    "id": 2,
+    "fullName": "Jane Doe",
+    "email": "testuser2@aucegypt.edu",
+    "password": "$2b$10$mFhj9JNwHLrQOHb2cBhml.vYXwQVn3K6eFRDuCorrI2JxaSDPaS5a",
+    "role": "ta",
+    "createdAt": "2026-04-15T12:31:46.142Z"
+  },
+  {
+    "id": 3,
+    "fullName": "Radwa AbuElfootuh",
+    "email": "radwaayman@aucegypt.edu",
+    "password": "$2b$10$qjcpQ9nEcbwIlZbil/yoOuriknDIpPaKRn4QQT/8Yz4GcGD.jOzzS",
+    "role": "student",
+    "createdAt": "2026-04-15T12:40:07.091Z"
+  },
+  {
+    "id": 4,
+    "fullName": "Basmala Metwally",
+    "email": "basmalametwally@aucegypt.edu",
+    "password": "$2b$10$na7xgpy1bGItDvrp7raDAezjuXDAC38mOO88l2bb6/TJxWukeBZZe", //BASMALA2020
+    "role": "student",
+    "createdAt": "2026-04-15T12:40:07.091Z"
+  },
+  {
+    "id": 5,
+    "fullName": "Amr Khaled",
+    "email": "amr_21@aucegypt.edu",
+    "password": "$2b$10$sVUkdZflup4jxXP/3mq7GuBn70iKWwYdr2KaQ7poZXxe5QjO1rITG", //AMR202561
+    "role": "student",
+    "createdAt": "2026-04-16T23:45:57.510Z"
+  }
+]
